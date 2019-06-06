@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="588.0" prefWidth="733.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="empresa.controlador.TelaVendaController">
+   <children>
+      <Label layoutX="14.0" layoutY="22.0" text="Tela Venda" />
+      <TableView fx:id="tvVenda" layoutY="69.0" onMouseClicked="#telaBaixo" prefHeight="200.0" prefWidth="733.0" />
+      <TableView fx:id="tvVandasItens" layoutY="320.0" prefHeight="268.0" prefWidth="733.0">
+         <columns>
+            <TableColumn prefWidth="75.0" />
+         </columns></TableView>
+   </children>
+</AnchorPane>
